@@ -32,10 +32,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do |box|
-    if box == "X" || box == "O"
-      return true
-    end
-  end
-  return false
+   board.all? {|i| i == "X" || i == "O"}
 end
