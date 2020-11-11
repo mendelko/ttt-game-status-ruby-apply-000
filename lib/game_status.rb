@@ -36,7 +36,8 @@ def full?(board)
     if box == "X" || box == "O"
       return true
     end
+  end
   return false
 end
 end
-end
+
